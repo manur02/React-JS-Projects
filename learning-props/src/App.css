@@ -1,0 +1,10 @@
+.contact{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .contact {
+    flex-direction: column;
+  }
+}

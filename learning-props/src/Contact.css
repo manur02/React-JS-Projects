@@ -1,0 +1,31 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 5, 7);
+    height: 40%;
+    width: 40%;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.person-img{
+    border-radius: 2%;
+}
+
+.email-icon {
+    width: 10%;
+    height: 10%;
+    margin-left: 23%;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.email-id{
+    margin-top: 2%;
+}

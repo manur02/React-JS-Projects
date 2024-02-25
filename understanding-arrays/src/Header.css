@@ -1,0 +1,13 @@
+.header {
+  background: linear-gradient(to right, #92c5e7, #ffffff); /* Light gradient from blue to white */
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-family: 'Arial', sans-serif; /* A widely used sans-serif font */
+  color: #333; /* Dark text for better readability */
+  margin: 0;
+  font-size: 3rem; /* Adjust the font size */
+}

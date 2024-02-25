@@ -1,0 +1,49 @@
+.travel-item {
+    background: linear-gradient(to right, #ffffff, rgba(194, 205, 246, 0.804)); /* Silver to white gradient */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* gap: 10px; */
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .image-container img {
+    width: 70%; /* To ensure the image fills its container */
+    height: 320px; /* Set a fixed height or use auto, as needed */
+    object-fit: cover; /* Ensures the image retains its aspect ratio */
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-bottom: 2%;
+  }
+
+  .travel-item a {
+    color: darkslategray; /* White color for the link */
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color:ghostwhite /* Semi-transparent white background for the link */
+  }
+  
+  .travel-item a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Lighter background color on hover */
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-right: 20%;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .travel-item {
+      grid-template-columns: 1fr;
+      padding-left: 10%;
+      align-items: center;
+    }
+  }
+  
